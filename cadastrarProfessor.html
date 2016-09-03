@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SGPI - C.Professor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/estilo.css"><!--Nesse Estilo segue todo os css a serem manipulados-->
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+</head>
+<body>
+  <nav id="nav" class="navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a href="index.html"><img src="img/logo.png" class="img-responsivo" alt="#"></a>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron"><!--Inicio do painel Index =  ao jubtron = uma área de cor cinza para iniciar os projetos --> 
+    <div class="container"> <!--Este é a principal div p/efeitos e resposividade atraveis dos bootstrap e materialize-->
+      <div class="modal-content"> <!--Define uma area na interface do sistema--> 
+       <div class="jumbotron ">
+        
+         <h4 class="text-center">CADASTRAR PROFESSOR</h4>
+         <div class="modal-dialog"> <!--O campo da pág aparentemente como uma caixa-->
+
+          <form class="form-horizontal" role="form">
+
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="text">Nome:</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="text" placeholder="Digite o nome do professor">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="pwd">Senha:</label>
+              <div class="col-sm-10">          
+                <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="pwdr">Repetir Senha:</label>
+              <div class="col-sm-10">          
+                <input type="password" class="form-control" id="pwdr" placeholder="Confirmar senha">
+              </div>
+            </div>
+            <div id="btnOperacao" class="btn-group btn-group-justified">
+              <a href="#" class="btn btn-primary btn-md">Cadastrar</a>
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div><!--Fim do painel Index =  ao jubtron--> 
+</body>
+<footer id="footerpai" class="page-footer">
+  <div class="container">
+    <div class="row"> <!--Divide o footer em partes-->
+      <div class="col l6 s12 "> <!--tamanho da divisao -->
+        <p class="grey-text text-lighten-4"><!-- Todos os direitos reservados · As fotos aqui vinculadas, assim como logotipo e marca, são de propriedades dos desenvolvedores mencionados, É vedada a sua reprodução, total ou parcial, sem a expressa autorização dos administradores deste site.
+        Inscrito no CNPJ.: 00.000.000/0001-01 --></p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <ul>
+          <li><a class="grey-text text-lighten-4" href="#!"> Dúvidas? Entre em contato conosco... Clique aqui</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container text-center">
+      <p>&copy2016; Trindade, Luãn, Leandro, Marlon desenvolvimento web</p>
+    </div>
+  </div>
+</footer>
+<!--<script>
+  <input type="date" class="datepicker">
+  $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+</script>-->
+</html>

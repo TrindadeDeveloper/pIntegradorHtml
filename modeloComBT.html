@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/estilo.css"><!--Nesse Estilo segue todo os css a serem manipulados-->
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+
+<body>
+	<nav id="nav" class="navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a href="index.html"><img src="img/logo.png" class="img-responsivo"></a>
+	    </div>
+	  </div>
+	</nav>
+	<div class="container"> <!--Este é a principal div p/efeitos e resposividade atraveis dos bootstrap e materialize-->
+    <div class="modal-dialog">
+      <div class="btn-group btn-group-justified ">
+        <a href="#" class="btn waves-effect waves-light">Botao 1</a>
+        <a href="#" class="btn waves-effect waves-light">Botao 2</a>
+      </div>
+    </div>
+  	<div class="modal-dialog"> <!--O campo da pág index foi criado com os efeitos modal-->
+  	  <div class="jumbotron modal-content "> 
+  	  	<div class="modal-header input-field">
+          <input id="email" type="email"  placeholder="E-mail"  class="validate">
+          <input id="password" type="password"  placeholder="password"  class="validate">
+        <a href="#" class="btn waves-effect waves-light">Login</a>
+        <button type="button" class="btn waves-effect waves-light">Cadastro</button>
+        <a class=" right" href="#!"><h6>Recupere senha</h6></a>
+        <!--<a href="#" class="btn waves-effect waves-light">Cadastro</a>-->
+        <!--<button type="button" class="btn waves-effect waves-light">Login</button>-->
+        </div>
+      </div><!--Fim do painel Index-->
+  	</div>
+  </div>  
+</body>
+<footer id="footerpai" class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--<div class="footer-copyright">
+    <div class="container text-center">
+    	<p>&copyright; Trindade, Luãn, Leandro, Marlon</p>
+    <a class="grey-text text-lighten-4 right" href="#!">Aqui voce pode por um link</a>
+    </div>
+  </div>
+</footer>
+<!--<script>
+  <input type="date" class="datepicker">
+  $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+</script>-->
+</html>
